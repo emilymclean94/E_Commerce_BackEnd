@@ -13,13 +13,13 @@ A project to build the back end for an e-commerce site by modifying starter code
 
 ## Usage
 
-Make sure you have the necessary packages installed. This project specifically uses the [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) package. Once you have the necessary packages, open the terminal in your code editing software. Type in the command 'node index.js' and answer the following prompts. Once you have answered all prompts, you will see a message that says "SVG file has been created" logged in the console. Your generated logo will be located in the Output folder within the 'assets' with the file name 'logo.svg'. Lastly, open in a Live Server to view your new logo!
+Clone this GitHub repo to your local machine. Make sure to install all  packages listed in the package.json. These include: express, sequelize, mysql2, and dotenv. Once installed, create the database using the script from the db folder. To seed the database, open the terminal and type "node seeds". Refresh your database to see the updates. To test the CRUD functionality, open your terminal and type "node server.js" and then use Insomnia, Postman, or whatever you prefer to perform get, post, put, and delete requests.
 
 To view a demonstration on how to use the app [click here](https://drive.google.com/file/d/1QOU8U_hQr7dZk63IocnD_dXDc8EEtsrc/view).
 
-[Products database](./assets/ecommerce_01.png)
+![Products database](./assets/ecommerce_01.png)
 
-[Insomnia Get for all categories](./assets/ecommerce_02.png)
+![Insomnia Get for all categories](./assets/ecommerce_02.png)
 
 ## License
 To learn more about the license used in this project [click here](https://opensource.org/licenses/MIT).
